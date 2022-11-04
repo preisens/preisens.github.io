@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formuláře</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">FURNIBEST E-SHOP</a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="./index.html" class="nav-item nav-link active">Objednat</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="p-5 my-4 bg-light rounded-3">
+      <form>
+        <div class="row">
+          <div class="col-md-4 mt-2">
+            <label for="username">Uživatelské jméno</label>
+            <input type="text" class="form-control" id="username" placeholder="Babyboy32">
+          </div>
+          <div class="col-md-5 mt-2">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="mymail@gmail.com">
+          </div>
+          <div class="col-md-3 mt-2">
+            <label for="telefon">Telefon</label>
+            <input type="text" class="form-control" id="telefon" placeholder="443-741-7763">
+          </div>
+          <div class="col-md-6 mt-2">
+            <label for="first-name">Jméno</label>
+            <input type="text" class="form-control" id="first-name" placeholder="John">
+          </div>
+          <div class="col-md-6 mt-2">
+            <label for="last-name">Příjmení</label>
+            <input type="text" class="form-control" id="last-name" placeholder="Doe">
+          </div>
+        </div>
+        <div class="mt-2">
+          <label for="inputAddress">Adresa doručení</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-md-6 mt-2">
+          <label for="ulice">Ulice</label>
+          <input type="text" class="form-control" id="ulice" placeholder="Main St">
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-2">
+            <label for="inputCity">Město</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="New York">
+          </div>
+          <div class="col-md-4 mt-2">
+            <label for="cislo_p">Číslo popisné</label>
+            <input type="number" class="form-control" id="cislo_p" placeholder="1234">
+          </div>
+          <div class="col-md-4 mt-2">
+            <label for="zeme">Země</label>
+            <select id="zeme" class="form-select">
+              <option selected>Vyberte zemi</option>
+              <option>Afghánistán</option>
+              <option>Albánie</option>
+              <option>Alžírsko</option>
+              <option>Andorra</option>
+              <option>Angola</option>
+              <option>Antigua a Barbuda</option>
+              <option>Argentina</option>
+              <option>Arménie</option>
+              <option>Austrálie</option>
+              <option>Ázerbájdžán</option>
+              <option>Bahamy</option>
+              <option>Bahrajn</option>
+              <option>Bangladéš</option>
+              <option>Barbados</option>
+              <option>Belgie</option>
+              <option>Belize</option>
+              <option>Bělorusko</option>
+              <option>Benin</option>
+              <option>Bhútán</option>
+              <option>Bolívie</option>
+              <option>Bosna a Hercegovina</option>
+              <option>Botswana</option>
+              <option>Brazílie</option>
+              <option>Brunej</option>
+              <option>Brunej</option>
+              <option>Bulharsko</option>
+              <option>Burkina Faso</option>
+              <option>Burundi</option>
+              <option>Čad</option>
+              <option>Černá Hora</option>
+              <option>Česko</option>
+              <option>Čína</option>
+              <option>Dánsko</option>
+              <option>Dominika</option>
+              <option>Dominikánská republika</option>
+              <option>Džibutsko</option>
+              <option>Egypt</option>
+              <option>Ekvádor</option>
+              <option>Eritrea</option>
+              <option>Estonsko</option>
+              <option>Etiopie</option>
+              <option>Fidži</option>
+              <option>Filipíny</option>
+              <option>Finsko</option>
+              <option>Francie</option>
+              <option>Gabon</option>
+              <option>Gambie</option>
+              <option>Ghana</option>
+              <option>Grenada</option>
+              <option>Gruzie</option>
+              <option>Guatemala</option>
+              <option>Guinea</option>
+              <option>Guinea-Bissau</option>
+              <option>Guyana</option>
+              <option>Haiti</option>
+              <option>Honduras</option>
+              <option>Chile</option>
+              <option>Chorvatsko</option>
+              <option>Indie</option>
+              <option>Indonésie</option>
+              <option>Irák</option>
+              <option>Írán</option>
+              <option>Irsko</option>
+              <option>Island</option>
+              <option>Itálie</option>
+              <option>Izrael</option>
+              <option>Jamajka</option>
+              <option>Japonsko</option>
+              <option>Jemen</option>
+              <option>Jihoafrická republika</option>
+              <option>Jižní Korea</option>
+              <option>Jižní Súdán</option>
+              <option>Jordánsko</option>
+              <option>Kambodža</option>
+              <option>Kamerun</option>
+              <option>Kanada</option>
+              <option>Kapverdy</option>
+              <option>Katar</option>
+              <option>Kazachstán</option>
+              <option>Keňa</option>
+              <option>Kiribati</option>
+              <option>Kolumbie</option>
+              <option>Komory</option>
+              <option>Konžská republika</option>
+              <option>Konžská demokratická republika</option>
+              <option>Kostarika</option>
+              <option>Kuba</option>
+              <option>Kuvajt</option>
+              <option>Kypr</option>
+              <option>Kyrgyzstán</option>
+              <option>Laos</option>
+              <option>Lesotho</option>
+              <option>Libanon</option>
+              <option>Libérie</option>
+              <option>Libye</option>
+              <option>Lichtenštejnsko</option>
+              <option>Litva</option>
+              <option>Lotyšsko</option>
+              <option>Lucembursko</option>
+              <option>Madagaskar</option>
+              <option>Maďarsko</option>
+              <option>Malajsie</option>
+              <option>Malawi</option>
+              <option>Maledivy</option>
+              <option>Mali</option>
+              <option>Malta</option>
+              <option>Maroko</option>
+              <option>Marshallovy ostrovy</option>
+              <option>Mauricius</option>
+              <option>Mauritánie</option>
+              <option>Mexiko</option>
+              <option>Mikronésie</option>
+              <option>Moldavsko</option>
+              <option>Monako</option>
+              <option>Mongolsko</option>
+              <option>Mosambik</option>
+              <option>Myanmar</option>
+              <option>Namibie</option>
+              <option>Nauru</option>
+              <option>Německo</option>
+              <option>Nepál</option>
+              <option>Niger</option>
+              <option>Nigérie</option>
+              <option>Nikaragua</option>
+              <option>Nizozemsko</option>
+              <option>Norsko</option>
+              <option>Nový Zéland</option>
+              <option>Omán</option>
+              <option>Pákistán</option>
+              <option>Palau</option>
+              <option>Panama</option>
+              <option>Papua-Nová Guinea</option>
+              <option>Paraguay</option>
+              <option>Peru</option>
+              <option>Pobřeží slonoviny</option>
+              <option>Polsko</option>
+              <option>Portugalsko</option>
+              <option>Rakousko</option>
+              <option>Rovníková Guinea</option>
+              <option>Rumunsko</option>
+              <option>Rusko</option>
+              <option>Rwanda</option>
+              <option>Řecko</option>
+              <option>Salvador</option>
+              <option>Samoa</option>
+              <option>San Marino</option>
+              <option>Saudská Arábie</option>
+              <option>Senegal</option>
+              <option>Severní Korea</option>
+              <option>Severní Makedonie</option>
+              <option>Severní Irsko</option>
+              <option>Seychely</option>
+              <option>Sierra Leone</option>
+              <option>Singapur</option>
+              <option>Slovensko</option>
+              <option>Slovinsko</option>
+              <option>Somálsko</option>
+              <option>Spojené arabské emiráty</option>
+              <option>Spojené království</option>
+              <option>Spojené státy americké</option>
+              <option>Srbsko</option>
+              <option>Středoafrická republika</option>
+              <option>Súdán</option>
+              <option>Surinam</option>
+              <option>Svatá Lucie</option>
+              <option>Svatý Kryštof a Nevis</option>
+              <option>Svatý Tomáš a Princův ostrov</option>
+              <option>Svatý Vincenc a Grenadiny</option>
+              <option>Svazijsko</option>
+              <option>Sýrie</option>
+              <option>Šalamounovy ostrovy</option>
+              <option>Španělsko</option>
+              <option>Šrí Lanka</option>
+              <option>Švédsko</option>
+              <option>Švýcarsko</option>
+              <option>Tádžikistán</option>
+              <option>Tanzanie</option>
+              <option>Thajsko</option>
+              <option>Togo</option>
+              <option>Tonga</option>
+              <option>Trinidad a Tobago</option>
+              <option>Tunisko</option>
+              <option>Turecko</option>
+              <option>Turkmenistán</option>
+              <option>Tuvalu</option>
+              <option>Uganda</option>
+              <option>Ukrajina</option>
+              <option>Uruguay</option>
+              <option>Uzbekistán</option>
+              <option>Vanuatu</option>
+              <option>Venezuela</option>
+              <option>Vietnam</option>
+              <option>Východní Timor</option>
+              <option>Zambie</option>
+              <option>Zimbabwe</option>
+              <option>Abcházie</option>
+              <option>Arcach</option>
+              <option>Jížní Osetie</option>
+              <option>Kosovo</option>
+              <option>Palestina</option>
+              <option>Podněstří</option>
+              <option>Severní Kypr</option>
+              <option>Somaliland</option>
+              <option>Tchaj-wan</option>
+              <option>Vatikán</option>
+              <option>Západní Sahara</option>
+            </select>
+          </div>
+          <div class="col-md-8 mt-2">
+            <label for="faktur_adresa">Fakturační adresa</label>
+            <input type="text" class="form-control" id="faktur_adresa" placeholder="1235 Main St">
+          </div>
+        </div>
+          <div class="col-md-6 mt-2">
+            <label for="ulice2">Ulice</label>
+            <input type="text" class="form-control" id="ulice2" placeholder="Main St">
+          </div>
+          <div class="row">
+            <div class="col-md-4 mt-2">
+              <label for="inputCity2">Město</label>
+              <input type="text" class="form-control" id="inputCity2" placeholder="New York">
+            </div>
+            <div class="col-md-4 mt-2">
+              <label for="cislo_p2">Číslo popisné</label>
+              <input type="number" class="form-control" id="cislo_p2" placeholder="1234">
+            </div>
+            <div class="col-md-4 mt-2">
+              <label for="zeme2">Země</label>
+              <select id="zeme2" class="form-select">
+                <option selected>Vyberte zemi</option>
+                <option>Afghánistán</option>
+                <option>Albánie</option>
+                <option>Alžírsko</option>
+                <option>Andorra</option>
+                <option>Angola</option>
+                <option>Antigua a Barbuda</option>
+                <option>Argentina</option>
+                <option>Arménie</option>
+                <option>Austrálie</option>
+                <option>Ázerbájdžán</option>
+                <option>Bahamy</option>
+                <option>Bahrajn</option>
+                <option>Bangladéš</option>
+                <option>Barbados</option>
+                <option>Belgie</option>
+                <option>Belize</option>
+                <option>Bělorusko</option>
+                <option>Benin</option>
+                <option>Bhútán</option>
+                <option>Bolívie</option>
+                <option>Bosna a Hercegovina</option>
+                <option>Botswana</option>
+                <option>Brazílie</option>
+                <option>Brunej</option>
+                <option>Brunej</option>
+                <option>Bulharsko</option>
+                <option>Burkina Faso</option>
+                <option>Burundi</option>
+                <option>Čad</option>
+                <option>Černá Hora</option>
+                <option>Česko</option>
+                <option>Čína</option>
+                <option>Dánsko</option>
+                <option>Dominika</option>
+                <option>Dominikánská republika</option>
+                <option>Džibutsko</option>
+                <option>Egypt</option>
+                <option>Ekvádor</option>
+                <option>Eritrea</option>
+                <option>Estonsko</option>
+                <option>Etiopie</option>
+                <option>Fidži</option>
+                <option>Filipíny</option>
+                <option>Finsko</option>
+                <option>Francie</option>
+                <option>Gabon</option>
+                <option>Gambie</option>
+                <option>Ghana</option>
+                <option>Grenada</option>
+                <option>Gruzie</option>
+                <option>Guatemala</option>
+                <option>Guinea</option>
+                <option>Guinea-Bissau</option>
+                <option>Guyana</option>
+                <option>Haiti</option>
+                <option>Honduras</option>
+                <option>Chile</option>
+                <option>Chorvatsko</option>
+                <option>Indie</option>
+                <option>Indonésie</option>
+                <option>Irák</option>
+                <option>Írán</option>
+                <option>Irsko</option>
+                <option>Island</option>
+                <option>Itálie</option>
+                <option>Izrael</option>
+                <option>Jamajka</option>
+                <option>Japonsko</option>
+                <option>Jemen</option>
+                <option>Jihoafrická republika</option>
+                <option>Jižní Korea</option>
+                <option>Jižní Súdán</option>
+                <option>Jordánsko</option>
+                <option>Kambodža</option>
+                <option>Kamerun</option>
+                <option>Kanada</option>
+                <option>Kapverdy</option>
+                <option>Katar</option>
+                <option>Kazachstán</option>
+                <option>Keňa</option>
+                <option>Kiribati</option>
+                <option>Kolumbie</option>
+                <option>Komory</option>
+                <option>Konžská republika</option>
+                <option>Konžská demokratická republika</option>
+                <option>Kostarika</option>
+                <option>Kuba</option>
+                <option>Kuvajt</option>
+                <option>Kypr</option>
+                <option>Kyrgyzstán</option>
+                <option>Laos</option>
+                <option>Lesotho</option>
+                <option>Libanon</option>
+                <option>Libérie</option>
+                <option>Libye</option>
+                <option>Lichtenštejnsko</option>
+                <option>Litva</option>
+                <option>Lotyšsko</option>
+                <option>Lucembursko</option>
+                <option>Madagaskar</option>
+                <option>Maďarsko</option>
+                <option>Malajsie</option>
+                <option>Malawi</option>
+                <option>Maledivy</option>
+                <option>Mali</option>
+                <option>Malta</option>
+                <option>Maroko</option>
+                <option>Marshallovy ostrovy</option>
+                <option>Mauricius</option>
+                <option>Mauritánie</option>
+                <option>Mexiko</option>
+                <option>Mikronésie</option>
+                <option>Moldavsko</option>
+                <option>Monako</option>
+                <option>Mongolsko</option>
+                <option>Mosambik</option>
+                <option>Myanmar</option>
+                <option>Namibie</option>
+                <option>Nauru</option>
+                <option>Německo</option>
+                <option>Nepál</option>
+                <option>Niger</option>
+                <option>Nigérie</option>
+                <option>Nikaragua</option>
+                <option>Nizozemsko</option>
+                <option>Norsko</option>
+                <option>Nový Zéland</option>
+                <option>Omán</option>
+                <option>Pákistán</option>
+                <option>Palau</option>
+                <option>Panama</option>
+                <option>Papua-Nová Guinea</option>
+                <option>Paraguay</option>
+                <option>Peru</option>
+                <option>Pobřeží slonoviny</option>
+                <option>Polsko</option>
+                <option>Portugalsko</option>
+                <option>Rakousko</option>
+                <option>Rovníková Guinea</option>
+                <option>Rumunsko</option>
+                <option>Rusko</option>
+                <option>Rwanda</option>
+                <option>Řecko</option>
+                <option>Salvador</option>
+                <option>Samoa</option>
+                <option>San Marino</option>
+                <option>Saudská Arábie</option>
+                <option>Senegal</option>
+                <option>Severní Korea</option>
+                <option>Severní Makedonie</option>
+                <option>Severní Irsko</option>
+                <option>Seychely</option>
+                <option>Sierra Leone</option>
+                <option>Singapur</option>
+                <option>Slovensko</option>
+                <option>Slovinsko</option>
+                <option>Somálsko</option>
+                <option>Spojené arabské emiráty</option>
+                <option>Spojené království</option>
+                <option>Spojené státy americké</option>
+                <option>Srbsko</option>
+                <option>Středoafrická republika</option>
+                <option>Súdán</option>
+                <option>Surinam</option>
+                <option>Svatá Lucie</option>
+                <option>Svatý Kryštof a Nevis</option>
+                <option>Svatý Tomáš a Princův ostrov</option>
+                <option>Svatý Vincenc a Grenadiny</option>
+                <option>Svazijsko</option>
+                <option>Sýrie</option>
+                <option>Šalamounovy ostrovy</option>
+                <option>Španělsko</option>
+                <option>Šrí Lanka</option>
+                <option>Švédsko</option>
+                <option>Švýcarsko</option>
+                <option>Tádžikistán</option>
+                <option>Tanzanie</option>
+                <option>Thajsko</option>
+                <option>Togo</option>
+                <option>Tonga</option>
+                <option>Trinidad a Tobago</option>
+                <option>Tunisko</option>
+                <option>Turecko</option>
+                <option>Turkmenistán</option>
+                <option>Tuvalu</option>
+                <option>Uganda</option>
+                <option>Ukrajina</option>
+                <option>Uruguay</option>
+                <option>Uzbekistán</option>
+                <option>Vanuatu</option>
+                <option>Venezuela</option>
+                <option>Vietnam</option>
+                <option>Východní Timor</option>
+                <option>Zambie</option>
+                <option>Zimbabwe</option>
+                <option>Abcházie</option>
+                <option>Arcach</option>
+                <option>Jížní Osetie</option>
+                <option>Kosovo</option>
+                <option>Palestina</option>
+                <option>Podněstří</option>
+                <option>Severní Kypr</option>
+                <option>Somaliland</option>
+                <option>Tchaj-wan</option>
+                <option>Vatikán</option>
+                <option>Západní Sahara</option>
+              </select>
+            </div>
+          </div>
+          <div class="mt-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Souhlasím se smluvními podmínkami
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary mt-2">Objednat</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
